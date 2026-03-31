@@ -263,12 +263,6 @@ dotnet test tests/Todo.Domain.UnitTests
 dotnet test --verbosity normal
 ```
 
-### Rodar com cobertura de código
-
-```bash
-dotnet test --collect:"XPlat Code Coverage"
-```
-
 ---
 
 ## Observabilidade (Seq)
@@ -440,9 +434,6 @@ dotnet build
 
 # Rodar todos os testes
 dotnet test
-
-# Rodar testes com cobertura
-dotnet test --collect:"XPlat Code Coverage"
 
 # Rodar localmente (sem Docker)
 dotnet run --project src/Todo.Api
